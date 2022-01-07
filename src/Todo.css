@@ -1,0 +1,89 @@
+.main{
+    background: pink;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+.card{
+    height: 500px;
+    width: 400px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+.App{
+    padding: 6px 0 2px 0;
+    margin-bottom: 10px; 
+    color: white;
+    background: transparent;
+    background-color: red;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);  
+}
+input{
+    text-align: center;
+    height: 30px;
+    outline: none;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    width: 60%;
+    font-weight: 500;
+    border-bottom: 2px solid blue;
+}
+button{
+    width: 50px;
+    min-height: 40px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color:yellowgreen ;
+    color: white;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+button:hover{
+    background-color:red ;
+}
+ol{
+    margin-top:30px ;
+}
+ol li{
+    padding-left: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-transform: capitalize;
+}
+.todo-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.todo-style .fa-window-close{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:greenyellow;
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    color:grey;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.todo-style .fa-window-close:hover{
+    background-color:crimson;
+}
+
